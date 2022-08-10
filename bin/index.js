@@ -1,30 +1,21 @@
 #! /usr/bin/env node
 const inquirer = require("inquirer");
 const yargs = require("yargs");
+const chalk = require('chalk')
 
-console.log("This is the CLI");
+const args = process.argv.slice(2,3)
+const secondArgs = process.argv.slice(3,4)
 
-const usage = "$0 <perintah>";
+const help = 'Ini adalah help'
 
-const login = (yargs) => {
-    inquirer.prompt([
-        {
-            type: 'input',
-            name: 'email',
-            message: 'Masukkan email Anda',
-        },
-        {
-            type: 'input',
-            name: 'password',
-            message: 'Masukkan password Anda',
-        },
-    ]).then((answers) => {
-        console.log(answers);
-    })
+if(args == 'login'){
+    console.log('ini adalah login')
 }
 
-const options = yargs
-  .scriptName("poko")
-  .usage(usage)
-  .command("login", "|| Melakukan login akun Pojokoding.com", login(yargs))
-  .help().argv;
+if(args == 'latihan'){
+    console.log(chalk.bgBlue("ini adalah latihan"))
+}
+
+if(args == false){
+    console.log(help)
+}

@@ -41,3 +41,8 @@ nama default dari file kerja adalah `index.js` di file inilah user bisa menulisk
 - Submit latihan
 - Validasi jawaban
 - Handle jawaban benar
+
+## Security
+
+- Proof Key for Code Exchange (PKCE)
+- Proxy
