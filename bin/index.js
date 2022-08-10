@@ -3,17 +3,20 @@ const inquirer = require("inquirer");
 const yargs = require("yargs");
 const chalk = require('chalk')
 
+const {latihan} = require('./../lib/latihan')
+const {login} = require('./../lib/login')
+
 const args = process.argv.slice(2,3)
 const secondArgs = process.argv.slice(3,4)
 
 const help = 'Ini adalah help'
 
 if(args == 'login'){
-    console.log('ini adalah login')
+    login()
 }
 
 if(args == 'latihan'){
-    console.log(chalk.bgBlue("ini adalah latihan"))
+    latihan()
 }
 
 if(args == false){
