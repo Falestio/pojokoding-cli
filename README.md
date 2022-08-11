@@ -36,11 +36,16 @@ nama default dari file kerja adalah `index.js` di file inilah user bisa menulisk
 ## TODO
 
 - Auth
-- Get latihan
-- Test latihan
-- Submit latihan
-- Validasi jawaban
-- Handle jawaban benar
+    - how to do auth on CLI app?
+- Get practice
+    - where to store the directories?
+    - how to store the directories?
+- Test practice
+    - how to run test command from CLI app?
+- Submit practice
+    - how to do POST request with a proof that user completed the challange
+- Practice content management
+    - how can writer manage practice content effectively
 
 ## Security
 
