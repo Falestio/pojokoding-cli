@@ -4,7 +4,7 @@
 
 - Didalam folder yang baru saja dibuat, user akan melakukan `poko kursus` (akan muncul inquirer) untuk membuat folder utama latihan dengan setiap dependencies didalamnya
 
-    - *Test library yang digunakan adalah mocha dan akan diinstall secara global oleh user
+    - *Menggunakan test runnner Mocha dan test library Chai
 
 - setiap kursus hanya memiliki satu folder utama
 
