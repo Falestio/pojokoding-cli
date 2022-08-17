@@ -1,0 +1,4 @@
+== SOAL ==
+
+Fungsi tambah pada index.js berfungsi untuk menambahkan dua buah paramater yang diberikan yaitu
+a dan b. Tapi fungsi tersebut tidak memberikan output, apa solusinya? 
